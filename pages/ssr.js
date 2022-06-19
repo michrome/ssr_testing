@@ -6,7 +6,7 @@ function Page({ res }) {
 // This gets called on every request
 export function getServerSideProps() {
   // Fetch data from external API
-  const res = { test: "test" };
+  const res = { test: "testing" };
 
   // Pass data to the page via props
   return { props: { res } };
