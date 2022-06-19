@@ -4,7 +4,7 @@ function Page({ res }) {
 }
 
 // This gets called on every request
-export async function getServerSideProps() {
+export function getServerSideProps() {
   // Fetch data from external API
   const res = { test: "test" };
 
