@@ -1,6 +1,6 @@
 function Page({ res }) {
   console.log(res.test);
-  return <h1>First Post</h1>;
+  return <h1>First Post test</h1>;
 }
 
 // This gets called on every request
