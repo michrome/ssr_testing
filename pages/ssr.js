@@ -1,6 +1,12 @@
+import SideBar from "../components/SideBar";
+
 function Page({ res }) {
   console.log(res.test);
-  return <h1>First Post test</h1>;
+  return (
+    <div className="flex">
+      <SideBar />
+    </div>
+  );
 }
 
 // This gets called on every request
